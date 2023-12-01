@@ -1,0 +1,161 @@
+@media{>300px,<480px}
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: cornsilk;
+        color: black;
+        text-align: center;
+        display: grid;
+        grid-template-rows: auto;
+        align-items: center;
+        
+    }
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
+        padding: 20px;
+        background-color: darkcyan;
+    }
+    header img {
+        margin: 0 auto;
+    }
+
+    body img {
+        margin: 0 auto;
+    }
+
+    h1, h2 {
+        margin: 0;
+        text-align: center;
+        color: black;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+        padding: 20px;
+    }
+
+    img.main-image {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+    }
+
+    .footer {
+        width: 100%;
+    }
+
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        background-color: darkcyan;
+        padding: 10px;
+    }
+
+    .navbar a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 14px 16px;
+    }
+
+    .navbar a:hover {
+        background-color: #ddd;
+    }
+    .navbar a.active {
+        color: white;
+        background-color: green;
+    }
+    body img,
+    video {
+        margin: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        max-width: 50%;
+    }
+
+    h3 {
+        list-style: none;
+        padding: 0;
+        color: black;
+    }
+
+    h4 {
+        max-width: 480px;
+        text-align: center;
+        margin: auto;
+    }
+
+    img {
+        display: block;
+        margin: 20px auto; 
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    img, video {
+        display: block;
+        margin: 20px auto; 
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+
+    header h1 {
+        text-align: center;
+        margin: 20px 0;
+        color: black;
+    }
+
+
+    h2, h3 {
+        text-align: center;
+        margin: 10px;
+    }
+
+
+    img, video {
+        display: block;
+        margin: 20px auto; 
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    hr {
+        width: 80%;
+        margin: 20px 0;
+    }
+
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+
+    li {
+        margin: 10px 0;
+    }
+
+
+    a {
+        text-decoration: none;
+        font-size: 18px;
+        color: black;
+    }
